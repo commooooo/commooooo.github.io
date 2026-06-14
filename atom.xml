@@ -4,28 +4,28 @@
     <name>commo</name>
   </author>
   <generator uri="https://hexo.io/">Hexo</generator>
-  <id>https://commooooo.github.io/</id>
-  <link href="https://commooooo.github.io/" rel="alternate"/>
-  <link href="https://commooooo.github.io/atom.xml" rel="self"/>
+  <id>https://0xcommo.github.io/</id>
+  <link href="https://0xcommo.github.io/" rel="alternate"/>
+  <link href="https://0xcommo.github.io/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, commo</rights>
   <title>commo</title>
-  <updated>2026-06-14T13:54:46.770Z</updated>
+  <updated>2026-06-14T14:03:28.887Z</updated>
   <entry>
     <author>
       <name>commo</name>
     </author>
-    <category term="随笔" scheme="https://commooooo.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    <category term="开始" scheme="https://commooooo.github.io/tags/%E5%BC%80%E5%A7%8B/"/>
+    <category term="随笔" scheme="https://0xcommo.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="开始" scheme="https://0xcommo.github.io/tags/%E5%BC%80%E5%A7%8B/"/>
     <content>
       <![CDATA[<p>这里是 commo 的个人博客，用来记录一些想法、技术笔记和生活点滴。</p><span id="more"></span><h2 id="为什么写博客"><a href="#为什么写博客" class="headerlink" title="为什么写博客"></a>为什么写博客</h2><p>输出是最好的学习方式。记录下来的东西，才是真正属于自己的。</p><h2 id="这里会写什么"><a href="#这里会写什么" class="headerlink" title="这里会写什么"></a>这里会写什么</h2><ul><li>技术笔记</li><li>读书摘录</li><li>随想随记</li></ul><p>慢慢来。</p>]]>
     </content>
-    <id>https://commooooo.github.io/2026/06/14/Hello-World/</id>
-    <link href="https://commooooo.github.io/2026/06/14/Hello-World/"/>
+    <id>https://0xcommo.github.io/2026/06/14/Hello-World/</id>
+    <link href="https://0xcommo.github.io/2026/06/14/Hello-World/"/>
     <published>2026-06-14T04:21:12.000Z</published>
     <summary>
       <![CDATA[<p>这里是 commo 的个人博客，用来记录一些想法、技术笔记和生活点滴。</p>]]>
     </summary>
     <title>Hello World</title>
-    <updated>2026-06-14T13:54:46.770Z</updated>
+    <updated>2026-06-14T14:03:28.887Z</updated>
   </entry>
 </feed>

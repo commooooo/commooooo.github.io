@@ -1,13 +1,23 @@
 # ──────────────────────────────────────────────
-# 仓库说明
+# 仓库文件说明
 #
-# 这个仓库存放 Hexo 博客的【源码】，即：
-#   - Markdown 文章（source/_posts/）
-#   - 配置文件（_config.yml、_config.butterfly.yml）
-#   - 自定义 JS/CSS（source/js/、source/css/）
-#   - GitHub Actions 工作流（.github/workflows/）
+# 【入库】—— 这些文件是博客的"源头"，换台机器或重建环境时必须靠它们还原：
 #
-# 以下文件【不】进入仓库，原因各见注释。
+#   _config.yml                Hexo 主配置（站点标题、URL、语言、时区、插件配置）
+#   _config.butterfly.yml      Butterfly 主题配置（外观、功能开关、注入脚本等）
+#   _config.landscape.yml      Hexo 默认备用主题配置，hexo init 自动生成，保留无害
+#   package.json               声明项目依赖的插件版本，是 npm ci 的依据
+#   package-lock.json          锁定所有依赖的精确版本，确保构建可复现
+#   scaffolds/                 hexo new 命令的文章/页面模板，决定新文件的默认格式
+#   source/_posts/             Markdown 文章，博客的核心内容
+#   source/about/index.md      About 页面内容
+#   source/css/i18n.css        自定义语言切换按钮样式
+#   source/js/i18n.js          自定义中英语言切换逻辑
+#   themes/.gitkeep            占位文件，保留 themes/ 目录结构（主题本身不入库）
+#   .github/workflows/         GitHub Actions 工作流，控制自动构建和发布流程
+#   .gitignore                 本文件，声明哪些文件不进仓库
+#
+# 【不入库】—— 以下文件由工具自动生成、体积过大、或属于本地私有状态，原因各见注释。
 # ──────────────────────────────────────────────
 
 # 操作系统产生的垃圾文件，与项目无关

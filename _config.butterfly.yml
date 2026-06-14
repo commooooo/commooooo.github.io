@@ -44,7 +44,7 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/commooooo || Github || '#24292e'
+  fab fa-github: https://github.com/0xcommo || Github || '#24292e'
   fas fa-envelope: mailto:745154989@qq.com || Email || '#4a7dbe'
 
 # --------------------------------------
@@ -287,7 +287,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/commooooo
+      link: https://github.com/0xcommo
   card_announcement:
     enable: true
     content: This is my Blog

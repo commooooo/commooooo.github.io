@@ -1,22 +1,46 @@
+# ─── 系统文件 ────────────────────────────────────────────────
+# macOS 自动生成的元数据文件，无实际用途
 .DS_Store
+# Windows 缩略图缓存，无实际用途
 Thumbs.db
+
+# ─── Hexo 运行时产物 ─────────────────────────────────────────
+# Hexo 数据库缓存，每次 generate 自动重建，不需要追踪
 db.json
+# 各类工具的运行日志，本地调试用，不入库
 *.log
+# 临时文件
+*.tmp
+# Hexo 构建缓存
+.cache/
+
+# ─── 依赖 ────────────────────────────────────────────────────
+# npm 依赖目录，通过 package.json + package-lock.json 还原，体积大不入库
 node_modules/
+
+# ─── 构建产物 ────────────────────────────────────────────────
+# hexo generate 生成的静态文件，由 GitHub Actions 构建后推送到 gh-pages 分支，不入 main 分支
 public/
+# hexo deploy 的临时目录（本项目已改用 GitHub Actions，保留作预防）
 .deploy*/
-_multiconfig.yml
+
+# ─── 主题 ────────────────────────────────────────────────────
+# Butterfly 主题由 GitHub Actions 在构建时 git clone，不入库避免仓库体积膨胀
 themes/butterfly/
 
-# Hexo generated
-.cache/
-*.tmp
+# ─── Hexo 多配置 ─────────────────────────────────────────────
+# hexo --config 合并多个配置时生成的临时文件
+_multiconfig.yml
 
-# Editor
+# ─── 编辑器 ──────────────────────────────────────────────────
+# VS Code 工作区配置，属于个人本地偏好，不应影响他人
 .vscode/
+# Vim 交换文件
 *.swp
 *.swo
 
-# Claude Code
+# ─── Claude Code ─────────────────────────────────────────────
+# 计划文件、记忆文件、会话数据，属于本地 AI 工作数据，不入库
 .claude/
+# 系统 crontab 每日迭代的运行日志
 cron.log

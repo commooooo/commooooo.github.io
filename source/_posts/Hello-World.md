@@ -5,6 +5,7 @@ categories:
   - 随笔
 tags:
   - 开始
+cover: https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600
 ---
 
 这里是 commo 的个人博客，用来记录一些想法、技术笔记和生活点滴。

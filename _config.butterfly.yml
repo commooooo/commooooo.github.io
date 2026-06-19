@@ -104,7 +104,7 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    # - xxx.jpg
+    - https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600
 
 # Replace Broken Images
 error_img:

@@ -44,6 +44,27 @@
     '复制成功': 'Copied!',
     '复制代码': 'Copy',
 
+    // Tags / Categories / Archives pages
+    '所有标签': 'All Tags',
+    '所有分类': 'All Categories',
+    '所有文章': 'All Posts',
+    '最新': 'Latest',
+    '最旧': 'Oldest',
+    '篇文章': ' posts',
+    '暂无文章': 'No posts yet',
+
+    // Post copyright
+    '本文作者': 'Author',
+    '本文链接': 'Link',
+    '版权声明': 'License',
+    '转载请注明出处': 'Please credit the source',
+
+    // Search
+    '搜索结果': 'Search Results',
+    '没有找到结果': 'No results found',
+    '共找到': 'Found ',
+    '条结果': ' results',
+
     // 404 / misc
     '页面不存在': 'Page Not Found',
     '回到首页': 'Back Home',
